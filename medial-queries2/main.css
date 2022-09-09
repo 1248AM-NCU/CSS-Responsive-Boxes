@@ -1,3 +1,22 @@
 body {
   background: papayawhip;
 }
+div div{
+  min-height: 100px;
+  min-width: 100px;
+  margin: 1%;
+  border: 1px solid black;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-flow: wrap
+}
+.a{width: 100%; order: -1;}
+.b{width: 67%; order: 1;}
+.f{width}
+
+@media (max-width: 600px)
+{
+   
+}

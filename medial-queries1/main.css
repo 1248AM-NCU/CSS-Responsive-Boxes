@@ -1,3 +1,24 @@
 body {
   background: blanchedalmond;
 }
+div div{
+  min-height: 100px;
+  min-width: 100px;
+  margin: 1%;
+  border: 1px solid black
+}
+
+.b, .c {
+  display: inline-block;
+}
+.b { width: 67% ;}
+.c { width: 27% ;}
+@media (max-width: 600px)
+{
+   .b {
+    height: 300px;
+   }
+   .b, .c {
+    width: 97.5%;
+   }
+}
